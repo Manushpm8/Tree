@@ -10,5 +10,8 @@ lib/** text
 *.gif binary
 *.pb binary
 
+# Ignore Makefile
+Makefile linguist-vendored
+
 # Auto-detect line endings
 * text eol=auto
