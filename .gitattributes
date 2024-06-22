@@ -1,0 +1,14 @@
+# Set default behavior to text
+* text=auto
+
+# Treat all files under lib/ directory as text
+lib/** text
+
+# Specify files to treat as binary
+*.jpg binary
+*.png binary
+*.gif binary
+*.pb binary
+
+# Auto-detect line endings
+* text eol=auto
